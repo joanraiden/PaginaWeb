@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>warhammer 40k: space marines 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="inicio" class="back1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-transparent">
+            <a class="navbar-brand" href="#"><img src="./assets/icono.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#que">¿Que es?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#requisitos">requisitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reserva">Reserva</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container2">
+            <div class="organ">
+                <div class="start-texto">
+                    <a>BIENVENIDOS AL MUNDO DE WARHAMMER 40,000</a>
+                </div>
+                <div class="sepder">   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="que" class="p-4 bg-light back2">
+        <div class="organ2">
+            <div class="container3">
+                <a>En el despiadado universo del lejano futuro solo hay guerra.</a>
+            </div>
+            <div class="container4">
+                <a>En el 41.º Milenio, las facciones en liza de antiguas 
+                    civilizaciones e imperios noveles se baten en batallas interminables a lo largo 
+                    y ancho de la galaxia. La humanidad está aislada, asediada por todos lados por 
+                    herejes, mutantes y alienígenas. No hay misericordia. No hay respiro. 
+                    Prepárate para la batalla.</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="p-4">
+        <div class="container carousel-container">
+            <h2 class="text-center">Screenshots</h2>
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/miniatura1.jpg" class="d-block w-100" alt="Miniatura 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/miniatura2.jpg" class="d-block w-100" alt="Miniatura 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/miniatura3.jpg" class="d-block w-100" alt="Miniatura 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+    
+        </div>
+
+        <div class="container text-center">
+            <h3>Trailer</h3>
+            <video width="1000" controls>
+                <source src="assets/video-warhammer.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+    </section>
+    
+    <section id="requisitos" class="p-4">
+        <div class="container">
+            <h3 class="text-center">Requisitos Recomendados</h3>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Referencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Procesador</td>
+                        <td>AMD Ryzen 5 2600X / Intel Core i5-8600K</td>
+                    </tr>
+                    <tr>
+                        <td>Memoria</td>
+                        <td>16 GB de RAM</td>
+                    </tr>
+                    <tr>
+                        <td>Gráficos</td>
+                        <td>8 GB VRAM, AMD Radeon RX 6800 XT / Nvidia GeForce RTX 3070</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+<!-------------------->
+
+    <section id="reserva" class="p-4 bg-light">
+        <div class="container">
+            <h2 class="text-center">Escribenos para reservar:</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-4">
+        <p>&copy; 2024 Warhammer 40k. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

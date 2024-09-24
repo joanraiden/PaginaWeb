@@ -1,0 +1,147 @@
+body {
+    font-family: Impact, fantasy;
+    
+}
+
+
+section {
+    margin-bottom: 0px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.back1{
+    background-image: url("./assets/bc1.jpg");
+    height: 800px;
+    background-size: cover;
+}
+
+.back2{
+    height: 1400px;
+    background-image: url("./assets/bc2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+
+.navbar-brand >img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.logo{
+    width: 30%
+}
+
+.container2{
+    padding-left: 3%;
+}
+
+.container3{
+    text-align:  center;
+    font-size: 8rem;
+    align-items: center;
+    flex: 1;
+    line-height: 1;
+}
+
+.container4{
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-family: Arial Narrow, sans-serif;
+    text-align:  center;
+    font-size: 2rem;
+    flex: 1;
+    line-height: 1;
+    padding-top: 3%;
+}
+
+.organ {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.organ2 {
+    margin-left: 7%;
+    margin-right: 7%;   
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.start-texto {
+    color: white;   
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 8rem;
+    flex: 1;
+    line-height: 1;
+}
+
+.sepder {
+    flex: 1;
+}
+
+.productos-imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.8); /* Color negro con transparencia */
+}
+
+/* Espaciado superior para evitar que el contenido quede oculto por el navbar */
+.content {
+    padding-top: 70px; /* Altura suficiente para evitar la superposición */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Negro semi-transparente */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 10px 30px; /* Espacio alrededor del contenido del navbar */
+    margin: 20px auto; /* Centrar el navbar */
+    max-width: 60%; /* Dejar espacio a los lados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para darle un mejor efecto */
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+    font-size: 1.2rem; 
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00; 
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.carousel-container {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; 
+}
+
+
+.table {
+    margin: 20px auto; 
+}
+
+.table td, .table th {
+    text-align: center;
+    padding: 10px 15px; 
+}
